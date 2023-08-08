@@ -1,208 +1,344 @@
-<!--
-Theme Name: starter-Responsive-Coming-Soon-Template 
-Author URI: http://webthemez.com/
--->
-<!doctype html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en-gb" class="no-js">
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--[if lt IE 9]> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
-<title>KJ Sons</title>
-<meta name="description" content="">
-<meta name="author" content="WebThemez">
-<!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-<!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link href="css/animate.css" rel="stylesheet" media="screen">
-<link rel="stylesheet" href="css/styles.css" />
-<link href="font/css/font-awesome.min.css" rel="stylesheet">
-</head>
-
-<body>
-<nav id="mainNav">
-  <div id="menuToggle"><i class="fa fa-bars"></i></div>
-  <ul class="menuLinks">
-    <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
-    <li><a href="#services" class="scroll-link">Services</a></li>
-    <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
-    <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
-  </ul>
-</nav>
-<!--/.header-->
-<div id="#top"></div>
-<section id="home">
-  <div class="banner-container">
-    <div class="container">
-      <div class="row">
-       <!-- <div class="logo"> <img src="images/logo.png" alr='logo'/> </div>-->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>KJ Sons</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
-      <div class="heading text-center">
-        <h2>Our new site is coming soon !!!</h2>
-		<h2>KJ Sons</h2>
-		<br></br>
-        <strong>Stay tuned for something amazing</strong> </div>
-		      <!--<div class="countdown styled"></div>-->
-    </div>
-  </div>
-</section> 
-<!--<section id="services" class="page-section colord">
-    <div class="container">
-      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <div class="row">
-          <div class="text-center col-sm-8 col-sm-offset-2">
-            <h2>Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-          </div>
-        </div> 
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header-top">
+            <div class="header">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                <!-- <a href="index.html"><img src="images/kjsons-logo.png" alt="" /></a>-->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <div class="menu-area">
+                           <div class="limit-box">
+                              <nav class="main-menu">
+                                 <ul class="menu-area-main">
+                                    <li class="active"> <a href="index.html">Home</a> </li>
+                                    <li> <a href="#jewellery">jewellery</a> </li>
+                                    <li> <a href="#contact">Contact</a> </li>
+                                    <li> <a href="#clients">Our Clients</a> </li>
+                                 </ul>
+                              </nav>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end header inner -->
+            <!-- end header -->
+            <section class="slider_section">
+               <div class="banner_main">
+                  <div class="container">
+                     <div class="row d_flex">
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 ">
+                           <div class="text-bg">
+                              <h1>Kanchan Jewellers</h1>
+                              <span><br> 
+                              <strong class="land_bold"></strong></span>
+                              <a href="#">Contact Us</a>
+                           </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                           <div class="text-img">
+                              <figure><img src="images/img.png" /></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         
+         </section>
+         
+         </div>
+      </header>
+      <!-- Best  -->
+      <div id="jewellery" class="Best">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Best jewellery</h2>
+                     <p> a reader will be distracted by the readable content of a page when looking at its layout. The point of using LoremIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="best_main">
+                     <div class="row d_flex">
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                           <div class="best_text">
+                              <p>A reader will be distracted by the readable content of a page when looking at its layout. The point of using LoremIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                              <a href="#">See More</a>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                           <div class="best_img">
+                              <h4>Best Design Of Ring</h4>
+                              <figure><img src="images/beimg.png"></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="best_main">
+                     <div class="row d_flex">
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                           <div class="best_img croos_rt">
+                              <h4>Best Design Of Ring</h4>
+                              <figure><img src="images/beimg2.png"></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                           <div class="best_text flot_left">
+                              <p>A reader will be distracted by the readable content of a page when looking at its layout. The point of using LoremIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                              <a href="#">See More</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="best_main pa_bot">
+                     <div class="row d_flex">
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                           <div class="best_text">
+                              <p>A reader will be distracted by the readable content of a page when looking at its layout. The point of using LoremIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                              <a href="#">See More</a>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                           <div class="best_img d_none">
+                              <h4>Best Design Of Ring</h4>
+                              <figure><img src="images/beimg3.png"></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-      <div class="text-center our-services">
-        <div class="row">
-          <div class="col-sm-4 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; -webkit-animation-duration: 1000ms; animation-delay: 300ms; -webkit-animation-delay: 300ms; animation-name: fadeInDown; -webkit-animation-name: fadeInDown;">
-            <div class="service-icon">
-              <i class="fa fa-cube"></i>
+      <!-- end Best -->
+      <!-- contact -->
+      <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Request a  call back</h2>
+                     <p> A reader will be distracted by the readable content of a page when looking at its layout. The point of using LoremIt is a long established fact that a reader will be distracted by the readable content </p>
+                  </div>
+               </div>
             </div>
-            <div class="service-info">
-              <h3>Desiging</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            <div class="row">
+               <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                  <div class="contact">
+                     <form>
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <input class="contactus" placeholder="Name" type="text" name="Name">
+                           </div>
+                           <div class="col-sm-12">
+                              <input class="contactus" placeholder="Phone Number" type="text" name="Phone Number">
+                           </div>
+                           <div class="col-sm-12">
+                              <input class="contactus" placeholder="Email" type="text" name="Email">
+                           </div>
+                           <div class="col-sm-12">
+                              <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                           </div>
+                           <div class="col-sm-12">
+                              <button class="send">Send</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                  <div class="rable-box">
+                     <figure>
+                     <img src="images/cac.png" alt="#" />
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="450ms" style="visibility: visible; animation-duration: 1000ms; -webkit-animation-duration: 1000ms; animation-delay: 450ms; -webkit-animation-delay: 450ms; animation-name: fadeInDown; -webkit-animation-name: fadeInDown;">
-            <div class="service-icon">
-              <i class="fa fa-user"></i>
-            </div>
-            <div class="service-info">
-              <h3>Mobile App</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="550ms" style="visibility: visible; animation-duration: 1000ms; -webkit-animation-duration: 1000ms; animation-delay: 550ms; -webkit-animation-delay: 550ms; animation-name: fadeInDown; -webkit-animation-name: fadeInDown;">
-            <div class="service-icon">
-              <i class="fa fa-cloud"></i>
-            </div>
-            <div class="service-info">
-              <h3>E-Commerce</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="650ms" style="visibility: visible; animation-duration: 1000ms; -webkit-animation-duration: 1000ms; animation-delay: 650ms; -webkit-animation-delay: 650ms; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
-            <div class="service-icon">
-              <i class="fa fa-download"></i>
-            </div>
-            <div class="service-info">
-              <h3>Marketing</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="750ms" style="visibility: visible; animation-duration: 1000ms; -webkit-animation-duration: 1000ms; animation-delay: 750ms; -webkit-animation-delay: 750ms; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
-            <div class="service-icon">
-              <i class="fa fa-dollar"></i>
-            </div>
-            <div class="service-info">
-              <h3>Finance</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="850ms" style="visibility: visible; animation-duration: 1000ms; -webkit-animation-duration: 1000ms; animation-delay: 850ms; -webkit-animation-delay: 850ms; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
-            <div class="service-icon">
-              <i class="fa fa-gift"></i>
-            </div>
-            <div class="service-info">
-              <h3>Managment</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
-          </div>
-        </div>
+         </div>
       </div>
-    </div>
-  </section>
-<section id="aboutUs">
-  <div class="container">
-    <div class="row feature design">
-      <div class="six columns right">
-        <h2>Our Company</h2>
-        <p>Lorem ipsum dolor sit amet, ea eum labitur scsstie percipitoleat fabulas complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-          Nec et jority have suffered alteration. </p>
-        <p>Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-          Nec et amet vidisse mentitumsstie percipitoleat fabulas. </p>
-      </div>
-      <div class="six columns feature-media left"> <img src="images/picture-136.png" alt=""> </div>
-    </div>
-  </div>
-</section>
-<section id="contactUs" class="contact-parlex">
-  <div class="parlex-back">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center"> 
-          <!-- Heading -->
-         <!-- <h2>Contact Us</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-        </div>
-      </div>
-      <div class="row mrgn30">
-	  <div class="col-md-offset-2 col-md-8"
-	  <div id="contactfrm">
-	  <form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert('Thank you for your feedback!');">
-							<div class="col-sm-12">
-							<div class="form-group">
-							<input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Name" required/>
-							</div>
-							<div class="form-group">
-							<input type="text" name="Email" id="Email" class="form-control wow fadeInUp" placeholder="Email" required/>
-							</div>					
-							<div class="form-group">
-							<textarea name="Message" rows="10" cols="20" id="Message" class="form-control input-message wow fadeInUp"  placeholder="Message" required></textarea>
-							</div>
-							<div class="form-group text-center">
-							<input type="submit" name="submit" value="Submit" class="btn btn-success wow fadeInUp" />
-							</div>
-							</div>
-						</form>		
-					</div>	
-       </div>
-      </div>
-    </div>
-    <!--/.container--> 
-  </div>-->
-</section>
-<footer>
-  <div class="container">
-    <div class="social text-center"> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-flickr"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-    <div class="clear"></div>
-    <!--CLEAR FLOATS--> 
-  </div>
-</footer>
-<!--/.page-section-->
-<section class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center"> Copyright 2023 | All Rights Reserved - <a href="" target="_blank"></a> </div>
-    </div>
-    <!-- / .row --> 
-  </div>
-</section>
-<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
-
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
-<script src="js/modernizr-latest.js"></script> 
-<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
-<script src="js/bootstrap.min.js" type="text/javascript"></script> 
-<script src="js/jquery.nav.js" type="text/javascript"></script> 
-<script src="js/waypoints.js"></script> 
-<script src="js/Backstretch.js" type="text/javascript"></script> 
-<script src="js/custom.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
-</body>
+      <!-- end contact -->
+      <!-- clients -->
+     <!-- <div id="clients" class="clients ">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Our Clients</h2>
+                     <p></p>
+                  </div>
+               </div>
+            </div>
+            <div class="row d_flex">
+               <div class="col-md-10 offset-col-md-1">
+                  <div id="myCarousel" class="carousel slide clients_slider" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row d_flex">
+                                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
+                                       <div class="img_box">
+                                          <i><img src="images/icon_1.png" alt="#"/></i>
+                                          <figure><img src="images/clients.png" alt="#"/></figure>
+                                       </div>
+                                    </div>
+                                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
+                                       <div class="joe">
+                                          <h3>Joe elik</h3>
+                                          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row d_flex">
+                                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
+                                       <div class="img_box">
+                                          <i><img src="images/icon_1.png" alt="#"/></i>
+                                          <figure><img src="images/clients.png" alt="#"/></figure>
+                                       </div>
+                                    </div>
+                                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
+                                       <div class="joe">
+                                          <h3>Joe elik</h3>
+                                          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row d_flex">
+                                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 pa_rile">
+                                       <div class="img_box">
+                                          <i><img src="images/icon_1.png" alt="#"/></i>
+                                          <figure><img src="images/clients.png" alt="#"/></figure>
+                                       </div>
+                                    </div>
+                                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa_rile">
+                                       <div class="joe">
+                                          <h3>Joe elik</h3>
+                                          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>-->
+      <!-- end clients -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="call_now2">
+                        <h3></h3>
+                        <span></span>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="call_now">
+                        <h3>Call/Chat Now</h3>
+                        <span>(+91)9910613087</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <p>© 2023 All Rights Reserved. <a href="https://html.design/">Design & Developed By : Rahul Soni</a></p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    
+   </body>
 </html>
