@@ -348,15 +348,15 @@
      text-align: center;
 }
  .logo {
-     float: center;
+     float: left;
    max-width: 100%;
  max-height: 100%;
   
 }
 
 .anything {
-  margin: left;
-  width: 200%;
+  margin: auto;
+  width: 180%;
   padding: 20px;
 }
  nav.main-menu {
