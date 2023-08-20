@@ -355,9 +355,9 @@
 }
 
 .anything {
-  margin: auto;
-  width: 200%;
-  padding: 50px;
+  margin: left;
+  width: 150%;
+  padding: 20px;
 }
  nav.main-menu {
      float: right;
